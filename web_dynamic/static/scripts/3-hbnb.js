@@ -1,4 +1,3 @@
-
 window.addEventListener('load', function () {
   // task 3
   $.ajax('http://0.0.0.0:5001/api/v1/status').done(function (data) {
